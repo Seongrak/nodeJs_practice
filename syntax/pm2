@@ -1,0 +1,19 @@
+
+
+install
+: npm install pm2@latest -g
+
+start
+: pm2 start app.js (--watch)
+
+When problem meets
+: pm2 log 
+
+monitoring
+: pm2 monit
+: pm2 list 
+
+stop
+: pm2 stop app.js
+
+
